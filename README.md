@@ -1,5 +1,7 @@
 # 🔄 Provider State Management Demo (Flutter)
 
+**🔗 Live demo:** https://nainezz.github.io/providerTest/
+
 A small **Flutter** app showing how to share state across screens with the **Provider** package, using more than one provider at once.
 
 ## What it shows
