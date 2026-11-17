@@ -25,8 +25,8 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          # Last Flutter release on Dart 2, which this project targets (sdk < 3.0.0)
-          flutter-version: '3.7.12'
+          # Flutter 3.3 (Dart 2.18), matching the era this project was written in
+          flutter-version: '3.3.10'
           channel: stable
       - run: flutter pub get
       - run: flutter build web --release --base-href /providerTest/
